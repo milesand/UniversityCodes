@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>%s</title>
+    <meta content="text/html" charset="utf-8"/>
+    <link rel="stylesheet" href="/static/main.css" type="text/css" media="screen,projection"/>
+</head>
+<body>
+
+<aside id="sidebar">
+    <div id="logo">
+        <a href="/"><img src="/static/logo.png" alt="logo.png"/></a>
+    </div>
+    <div id="uos">University of Seoul</div>
+    <div id="login-status">
+        %s
+    </div>
+</aside>
+
+<form action="/search" method="GET">
+    <div id="searchbar">
+        <input id="search-input" type="text" name="title" placeholder="Search..">
+    </div>
+</form>
+
+<main>
+    %s
+    %s
+</main>
+
+<footer> 
+    Wiki engine by some UOS CS department students
+</footer>
+
+</body>
+</html>

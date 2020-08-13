@@ -1,0 +1,5 @@
+# loss and accuracy of models.
+/outputs
+
+# compiled models described in src/models.py.
+/models

@@ -1,0 +1,15 @@
+[package]
+name = "cas-incr"
+version = "0.1.0"
+authors = ["Jewoo Lee <shema7k@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[[bin]]
+name = "racey"
+path = "src/racey.rs"
+
+[[bin]]
+name = "atomic"
+path = "src/atomic.rs"

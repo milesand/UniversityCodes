@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+    db:
+        build: ./wiki-mysql
+        image: wiki-mysql:latest
+        hostname: db
+        environment:
+            - MYSQL_ROOT_PASSWORD=Pringles
+    nginx:
+        build: ./wiki-nginx
+        image: wiki-nginx:latest
+        hostname: nginx
+        ports:
+            - 80:80
+        depends_on:
+            - php
+    php:
+        build: ./wiki-php
+        image: wiki-php:latest
+        hostname: php
+        depends_on:
+            - db

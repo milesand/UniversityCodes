@@ -1,0 +1,8 @@
+[package]
+name = "cas-list"
+version = "0.1.0"
+authors = ["Jewoo Lee <shema7k@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+crossbeam-epoch = "0.7.1"

@@ -1,0 +1,10 @@
+{
+    "main_page": "Meta:Main Page",
+    "db": {
+        "addr": "db",
+        "user": "wiki",
+        "pass": "SuperSecretPassword!",
+        "name": "wiki",
+        "port": 3306
+    }
+}

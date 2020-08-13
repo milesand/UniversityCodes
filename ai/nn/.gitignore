@@ -1,0 +1,5 @@
+# outputs from networks, in structured text and png format.
+/out
+/plot/*
+!/plot/run.py
+!/plot/markers

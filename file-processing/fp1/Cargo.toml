@@ -1,0 +1,17 @@
+[package]
+name = "fp1"
+version = "0.1.0"
+authors = ["Jewoo Lee <shema7k@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "create_file"
+path = "src/create_file.rs"
+
+[[bin]]
+name = "apply"
+path = "src/apply.rs"
+
+[dependencies]
+clap = "2.33"
+tempfile = "3.0"
